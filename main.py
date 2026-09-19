@@ -53,7 +53,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-GROUP_ID = 1124146857  # ⚠️ این رو با آیدی واقعی گروه چک کنید
+GROUP_ID =   # ⚠️ این رو با آیدی واقعی گروه چک کنید
 MESSAGE_TO_SEND = (
     "سلام و احترام 🌹\n"
     "درخواست غذا"
