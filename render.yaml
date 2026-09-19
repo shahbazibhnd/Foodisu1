@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: bale-food-alert
+    env: python
+    region: frankfurt  # یا نزدیک‌ترین منطقه به شما
+    plan: free
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: python main.py
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: PYTHONDONTWRITEBYTECODE
+        value: "1"
