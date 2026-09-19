@@ -17,7 +17,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # تنظیمات ربات
-GROUP_ID = 1889754358
+GROUP_ID = 1124146857
 MESSAGE_TO_SEND = (
     "سلام و احترام 🌹\n"
     "درخواست غذا"
